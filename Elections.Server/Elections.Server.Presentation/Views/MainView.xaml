@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="Elections.Server.Presentation.Views.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             Height="{Binding Height}" Width="{Binding Width}">
+    <Grid>
+        <ContentControl>
+            <Menu VerticalAlignment="Top" >
+                <MenuItem Header="Administración">
+                    <MenuItem Header="Principal" x:Name="Main"/>
+                    <MenuItem Header="Gestionar Estudiantes" x:Name="ShowStudent"/>
+                    <MenuItem Header="Consultar Estudiantes" x:Name="ShowListStudent"/>
+                    <MenuItem Header="Gestionar Candidatos" x:Name="ShowCandidates"/>
+                    <MenuItem Header="Resultados" x:Name="ShowRecord"/>
+                </MenuItem>
+                <MenuItem Header="Salir"/>
+            </Menu>
+        </ContentControl>
+        <ContentControl Name="Screen" Margin="0,18,0,0"/>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,12 @@
+C:\Projects\ElectionsServer\Elections.Server\Elections.Server.Domain\bin\Debug\Elections.Server.Domain.dll.config
+C:\Projects\ElectionsServer\Elections.Server\Elections.Server.Domain\bin\Debug\Elections.Server.Domain.dll
+C:\Projects\ElectionsServer\Elections.Server\Elections.Server.Domain\bin\Debug\Elections.Server.Domain.pdb
+C:\Projects\ElectionsServer\Elections.Server\Elections.Server.Domain\bin\Debug\Dapper.dll
+C:\Projects\ElectionsServer\Elections.Server\Elections.Server.Domain\bin\Debug\Dapper.Rainbow.MySql.dll
+C:\Projects\ElectionsServer\Elections.Server\Elections.Server.Domain\bin\Debug\MySql.Data.dll
+C:\Projects\ElectionsServer\Elections.Server\Elections.Server.Domain\bin\Debug\Dapper.pdb
+C:\Projects\ElectionsServer\Elections.Server\Elections.Server.Domain\bin\Debug\Dapper.xml
+C:\Projects\ElectionsServer\Elections.Server\Elections.Server.Domain\bin\Debug\Dapper.Rainbow.MySql.xml
+C:\Projects\ElectionsServer\Elections.Server\Elections.Server.Domain\obj\Debug\Elections.Server.Domain.csprojResolveAssemblyReference.cache
+C:\Projects\ElectionsServer\Elections.Server\Elections.Server.Domain\obj\Debug\Elections.Server.Domain.dll
+C:\Projects\ElectionsServer\Elections.Server\Elections.Server.Domain\obj\Debug\Elections.Server.Domain.pdb
