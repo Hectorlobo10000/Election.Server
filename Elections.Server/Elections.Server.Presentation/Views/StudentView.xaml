@@ -38,11 +38,11 @@
             </Border>
 
             <Border HorizontalAlignment="Left" Height="26" Margin="10,262,0,0" VerticalAlignment="Top" Width="248">
-                <xctk:WatermarkComboBox Watermark="Grado..." BorderBrush="SteelBlue" BorderThickness="1,1,1,1"/>
+                <xctk:WatermarkComboBox Watermark="Grado..." BorderBrush="SteelBlue" BorderThickness="1,1,1,1" ItemsSource="{Binding GradeList}"/>
             </Border>
 
             <Border HorizontalAlignment="Left" Height="26" Margin="10,298,0,0" VerticalAlignment="Top" Width="248">
-                <xctk:WatermarkComboBox Watermark="Sección..." BorderBrush="SteelBlue" BorderThickness="1,1,1,1"/>
+                <xctk:WatermarkComboBox Watermark="Sección..." BorderBrush="SteelBlue" BorderThickness="1,1,1,1" ItemsSource="{Binding SectionList}"/>
             </Border>
 
             <Button Content="Guardar" HorizontalAlignment="Left" Margin="10,344,0,0" VerticalAlignment="Top" Width="248" Height="26">

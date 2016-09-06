@@ -1,21 +1,19 @@
-﻿using System;
-
 namespace Elections.Server.Domain.Entities
 {
-    public class Sex
+    public class Section
     {
-        public int IdSex { get; set; }
+        public int IdSection { get; set; }
         public string Description { get; set; }
 
-        public Sex() 
+        public Section()
         {
             
         }
 
-        public Sex(int idSex, string description)
+        public Section(int idSection, string description)
         {
-            IdSex = idSex;
-            Description = description;
+            IdSection = idSection;
+            Description = Description;
         }
 
         public override string ToString()

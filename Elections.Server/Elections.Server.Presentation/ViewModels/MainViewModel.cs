@@ -56,7 +56,7 @@ namespace Elections.Server.Presentation.ViewModels
 
         public void ShowStudent()
         {
-            Screen = new StudentViewModel(this, new SexRepository());
+            Screen = new StudentViewModel(this, new Repository());
         }
     }
 }

@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Windows.Forms;
 
 namespace Elections.Server.Domain.Entities
 {
     public class Student
     {
-        public int Index { get; set; } 
+        public int? Index { get; set; } 
         public int Number { get; set; }
         public string Identity { get; set; }
 
@@ -63,7 +64,7 @@ namespace Elections.Server.Domain.Entities
             
         }
 
-        public Student(int index, 
+        public Student(int? index, 
             int number, 
             string identity, 
             string firstName, 

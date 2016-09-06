@@ -1,21 +1,23 @@
-﻿using System;
+﻿using System.Threading;
 
 namespace Elections.Server.Domain.Entities
 {
-    public class Sex
+    public class Grade
     {
-        public int IdSex { get; set; }
+        public int IdGrade { get; set; } 
         public string Description { get; set; }
+        public string Lettle { get; set; }
 
-        public Sex() 
+        public Grade()
         {
             
         }
 
-        public Sex(int idSex, string description)
+        public Grade(int idGrade, string description, string lettle)
         {
-            IdSex = idSex;
+            IdGrade = idGrade;
             Description = description;
+            Lettle = lettle;
         }
 
         public override string ToString()

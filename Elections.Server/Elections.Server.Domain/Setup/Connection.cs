@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using Elections.Server.Domain.Database;
 
 namespace Elections.Server.Domain.Setup
 {
@@ -12,17 +13,22 @@ namespace Elections.Server.Domain.Setup
             _setup = setup;
         }
 
-        public void Open()
+        public DataBase Open()
         {
+            DataBase db = null;
             try
             {
                 _setup.GetConnection().Open();
+                var data = DataBase.Init(_setup.GetConnection(), 10);
+                db = data;
             }
             catch (Exception e)
             {
 
                 MessageBox.Show(e.Message);
             }
+
+            return db;
         }
 
         public void Close()
